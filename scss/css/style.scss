@@ -1,0 +1,124 @@
+
+// $font-stack: Helvetica, sans-serif;
+// $primary-font-size: 18px;
+
+// $reverse-color: #FFF;
+// $primary-color: #444;
+// $primary-color-darkest: #111;
+// $primary-color-dark: #333;
+// $primary-color-light: #555;
+// $primary-color-lightest: #999;
+// $error-color: #F33;
+// $warning-color: #DA3;
+// $warning-color-darkest: #A30;
+// $warning-color-dark: #D32;
+// $warning-color-light: #EB3;
+// $warning-color-lightest: #FB3;
+// $error-color: #C33;
+// $error-color-darkest: #A00;
+// $error-color-dark: #D22;
+// $error-color-light: #E33;
+// $error-color-lightest: #F33;
+
+
+// $main-background-color: #cdd;
+// $light-background: #eff;
+
+// $extra-tight-spacing: 0.0em;
+// $tight-spacing: 0.2em;
+// $standard-spacing: 0.4em;
+// $loose-spacing: 0.8em;
+// $standard-border-width: .2em;
+// $standard-border-style: solid;
+
+// body * {
+// 	box-sizing: border-box;
+// }
+// body {
+// 	font-size: 1.0em;
+// 	font-family: $font-stack;
+// 	color: $primary-color;
+// 	margin: 0;
+// 	padding: $tight-spacing;
+// 	max-width: 100%;
+// 	background-color: $main-background-color;
+// 	@extend .normal;
+// }
+
+// .standard-border {
+// 	border-width: $standard-border-width;
+// 	border-style: $standard-border-style;
+// 	border-color: $primary-color-light;
+// 	@extend .normal;
+// }
+
+// button, .btn {
+// 	width: 100%;
+// 	margin: 0;
+// 	font-size: $primary-font-size;
+// 	min-height: $primary-font-size * 2;
+// 	color: $reverse-color;
+// 	background-color: $primary-color;
+// 	padding: $loose-spacing;
+// 	@extend .standard-border;
+
+// 	&:active {
+// 		background-color: $primary-color-lightest;
+// 	}
+// 	&:hover {
+// 		background-color: $primary-color-light;
+// 	}
+// 	&.warning {
+// 		background-color: $warning-color;
+// 		&:active {
+// 			background-color: $warning-color-lightest;
+// 		}
+// 		&:hover {
+// 			background-color: $warning-color-light;
+// 		}
+// 	}
+// 	&.error {
+// 		background-color: $error-color;
+// 		&:active {
+// 			background-color: $error-color-lightest;
+// 		}
+// 		&:hover {
+// 			background-color: $error-color-light;
+// 		}
+// 	}
+// }
+
+// form {
+// 	max-width: 1000px;
+
+// 	input, button, .input-group {
+// 		display: block;
+// 	}
+// 	input, .input-group {
+// 		padding: $tight-spacing;
+// 		width: 100%;
+// 	}
+
+// 	input {
+// 		border-width: $standard-border-width;
+// 		border-style: $standard-border-style;
+// 		font-size: 1em;
+// 		background-color: $light-background !important;
+// 		@extend .standard-border;
+// 		margin-top: $standard-spacing;
+// 		margin-top: $standard-spacing;
+// 	}
+
+// 	label {
+// 		&.warning {
+// 			color: $warning-color;	
+// 		}
+// 		&.error {
+// 			color: $error-color;	
+// 		}
+// 	}
+// }
+
+// form.authorization {
+
+// }
