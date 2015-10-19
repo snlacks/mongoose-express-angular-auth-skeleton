@@ -1,4 +1,5 @@
 {
+  "author": "Steven Lacks <snlacks@gmail.com>",
   "scripts": {
     "start": "nodemon bin/www",
     "build": "webpack public/js/home.app.js public/js/compiled.js --watch",

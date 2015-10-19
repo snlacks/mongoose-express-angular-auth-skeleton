@@ -5,7 +5,7 @@ const express = require('express'),
 
 router.get('/',  function(req, res, next){
 	if(req.isAuthenticated()){
-		res.render('dashboard/dashboard');
+		res.redirect('/#/dashboard')
 	} else {
 		res.redirect('/')
 

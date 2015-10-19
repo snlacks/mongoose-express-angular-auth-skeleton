@@ -7,7 +7,10 @@ module.exports = function login(sk){
 				</div>`,
 			link: function(scope, element, attr){
 				if($location.search().hasOwnProperty('flash')){
+					scope.flash = [];
 					scope.flash = JSON.parse($location.search().flash);
+				} else {
+					scope.flash = [];
 				}
 
 			}

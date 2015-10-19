@@ -3,7 +3,7 @@ module.exports = function login(sk){
 	sk.directive('skLogin', [ function(){
 		return {
 			template: `
-				<form ng-model="userLogin" action="/users/login" method="POST" id="login" class="authorization">
+				<form ng-model="user" action="/users/login" method="POST" id="login" class="authorization">
 					<div sk-username></div>
 					<div sk-password></div>
 					<div sk-login-button></div>
